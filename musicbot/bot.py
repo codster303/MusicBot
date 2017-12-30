@@ -1205,6 +1205,2412 @@ class MusicBot(discord.Client):
                     reply=True, delete_after=10
                 )
 
+   
+    async def cmd_s(self, channel):
+		await self.safe_send_message(channel, 
+		"You have started searching for a song to play\nPlease select an artist:\n!s1 = Greydon Square\n!s2 = Scientifik\n!s3 = Sai Phi\n!s4 = Tombstone Da Deadman\n!s5 = Syqnys\n!s6 = SPAN PHLY\n!s7 = C Gats\n!s8 = The Twelfth Doctor\n!s9 = Low Technology")
+		return
+		
+	async def cmd_s1(self, channel):
+		await self.safe_send_message(channel,"You selected Greydon Square"\
+		"\nPlease select an album:" \
+		"\n!s1a = Omniverse : Type 3 : Aum niverse"\
+		"\n!s1b = Type II : The Mandelbrot Set" \
+		"\n!s1c = Type I : The Kardashev Scale" \
+		"\n!s1d = The Cpt Theorem" \
+		"\n!s1e = The Compton Effect")
+		return
+		
+	async def cmd_s2(self, channel):
+		await self.safe_send_message(channel,"You selected Scientifik\nPlease select a song:\n!s2a1 = Information Audio\n!s2a2 = Sisters & Brothers\n!s2a3 = 4 Minutes 20 Seconds\n!s2a4 = Spend A Lot of Time\n!s2a5 = Police and Thiefs\n!s2a6 = Caught Up\n!s1a7 = Lies \n!s2a8 = Take Advantage\n!s2a9 = Sometimes\n!s2a10 = Smiling Faces\n!s2a11 = Do What You Want\n!s2a12 = Watch Where I Go\n!s2a13 = Misunderstood (feat. Greydon Square)")
+		return
+	async def cmd_s3(self, channel):
+		await self.safe_send_message(channel,"You selected Sai Phi\nPlease select a Song:\n !s3a1 = I Wrote This for The Universe\n !s3a2 = Sneek Peek of Upcoming Album") #\n !s3a1 = \n !s3a1 = \n !s3a1 = \n !s3a1 = \n !s3a1 = \n !s3a1 = \n !s3a1 = ")
+		return
+	async def cmd_s4(self, channel):
+		await self.safe_send_message(channel,"You selected Tombstone Da Deadman\nPlease select an album:\n!s4a = Rise of The Reapers\n!s4b = The 6th Extinction")#\n!s1c = Type I : The Kardashev Scale\n!s1d = Tombstone Da Deadman\n!s1 = Syqnys\n!s1 = C Gats\n!s1 = SPAN PHLY\n")
+		return
+	async def cmd_s5(self, channel):
+		await self.safe_send_message(channel,"You selected Syqnys\nPlease select an album:\n!s5a = VI. Syqs\n!s5b = IV. The Nausea\n!s5c = V. Chasing the Rabbit\n!s5d = III. Hypatia's Reign\n!s5e = II. CandyCap Rap and the L8Gr8 Atheist: Why Syqnys is the Future of Rap and Starving Children Taste Good")#\n!s1b = Type II : The Mandelbrot Set\n!s1c = Type I : The Kardashev Scale\n!s1d = Tombstone Da Deadman\n!s1 = Syqnys\n!s1 = C Gats\n!s1 = SPAN PHLY\n")
+		return
+	async def cmd_s7(self, channel):
+		await self.safe_send_message(channel,"You selected C Gats\nPlease select an album:\n!s1a = GatZilla (C​-​Gats & Zpu​-​Zilla) - Attack on Titan\n!s1b = C Gats & Charlie Rose - Something Time Forgot: The Lost Mixtape\n!s7c = Passion & Progress Vol. 2: Therapeutic Music\n!s7d = Passion & Progress Vol. 1\n")
+		return
+	async def cmd_s6(self, channel):
+		await self.safe_send_message(channel,"You selected SPAN PHLY\nPlease select an album:\n!s6a = Prelude to Perfection\n!s6b = Talking to Myself\n!s6c = Nothing Lasts Forever\n!s6d = Lengthen the Lifespan\n!s6e = Two Weeks Notice: Deluxe Edition\n\n")
+		return
+	async def cmd_s8(self, channel):
+		await self.safe_send_message(channel,"You selected The Twelfth Doctor\nPlease select an album:\n!s8a = No Gods No Kings Only Timelords")
+		return
+	async def cmd_s9a(self, channel):
+		await self.safe_send_message(channel,"You selected Low Technology\nPlease select an album:\n!s9 = LTGU")
+		return
+		
+	async def cmd_s1a(self, channel):
+		await self.safe_send_message(channel,"You selected Type 3 : Aum niverse by Greydon Square"\
+		"\nPlease select a song:\n!s1a1 = Cosmic Harvest"\
+		"\n!s1a2 = Omniverse\n!s1a3 = Broken Symmetry\n!s1a4 = Extropy\n!s1a5 = Defiant\n!s1a6 = Spectacle\n!s1a7 = Syllablke Theory\n!s1a8 = The Grand Cypher \n!s1a9 = Many Worlds\n!s1a10 = Omnithoughts\n!s1a11 = 5th\n!s1a12 = 2016 Athiest Dreadnought\n!s1a13 = Second World Cab Ride\n!s1a14 = .8\n!s1a15 = Another Lens\n!s1a16 = Bad Plan\n!s1a17 = Frame of Referance \n!s1a18 = Greyshift\n!s1a19 = Society Versus Nature\n!s1a20 = Ambush Situation\n!s1a21 = Landscape\n!s1a22 = Beachfront\n!s1a23 = Interdimensional Council of Greys\n!s1a24 = Guardians of Knowleadge\n!s1a25 = Dreams of the Dreamer\n!s1a26 = The Master Paradox\n!s1a27 = Star Breaker\n!s1a28 = Bizzarchitecture\n!s1a29 = Infinitease\n!s1a30 = Far Beyond The Bars") 
+		return
+		
+	async def cmd_s1b(self, channel):
+		await self.safe_send_message(channel,
+		"You selected Type II : The Mandelbrot Set by Greydon Square"\
+		"\nPlease select a song:"\
+		"\n!s1b1 = Galaxy Rise"\
+		"\n!s1b2 = 4th"\
+		"\n!s1b3 = Snowflakes and Flowsnakes"\
+		"\n!s1b4 = Peace Peace"\
+		"\n!s1b5 = Flower Girl"\
+		"\n!s1b6 = 2013 Athiest Dreadnought"\
+		"\n!s1b7 = Grow Too Old Soon"\
+		"\n!s1b8 = Prison Planet"\
+		"\n!s1b9 = Interstellar"\
+		"\n!s1b10 = 1-2, 1-2"\
+		"\n!s1b11 = Dopamine Notes"\
+		"\n!s1b12 = Judgement Day"\
+		"\n!s1b13 = Rhyme Sickness from Orion Cygnus"\
+		"\n!s1b14 = Metaphor Swordsman"\
+		"\n!s1b15 = 6 Blankas(feat. C Gats & Canibus)"\
+		"\n!s1b16 = Borrowed Time"\
+		"\n!s1b17 = #GU After-Party (feat. DJ Zashone)"\
+		"\n!s1b18 = Ultra Combo"\
+		"\n!s1b19 = Summer's Ending"\
+		"\n!s1b20 = .7"\
+		"\n!s1b21 = As a Legend"\
+		"\n!s1b22 = Final Kata"\
+		)
+		return
+		
+	async def cmd_s1c(self, channel):
+		await self.safe_send_message(channel,
+		"You selected Type I : The Kardashev Scale by Greydon Square"\
+		"\nPlease select a song:"\
+		"\n!s1c1 = Star View"\
+		"\n!s1c2 = War Porn(feat. Canabis)"\
+		"\n!s1c3 = Onward"\
+		"\n!s1c4 = The Kardashev Scale"\
+		"\n!s1c5 = Speak To Him(feat. Gripp)"\
+		"\n!s1c6 = Brains"\
+		"\n!s1c7 = Myth"\
+		"\n!s1c8 = 2010 A.D. (feat. Syqnys & TaskRok)"\
+		"\n!s1c9 = Here's why I don't believe..."\
+		"\n!s1c10 = Man-Made God"\
+		"\n!s1c11 = Proof of Concept"\
+		"\n!s1c12 = Stockholm Syndrome"\
+		"\n!s1c13 = Stockholm Syndrome"\
+		"\n!s1c14 = Special Pleading"\
+		"\n!s1c15 = World Around Us"\
+		"\n!s1c16 = As an artist"\
+		"\n!s1c17 = Final Notes"\
+		"\n!s1c18 = A.I.M (Anti-Injustice Music)"\
+		"\n!s1c19 = Dopamine Kata")
+		return	
+	
+	
+
+	
+	async def cmd_s1a1(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/cosmic-harvest")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a2(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/omniverse")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a3(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/broken-symmetry-feat-tombstone-da-deadman")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a4(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/extropy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a5(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/defiant")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a6(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/spectacle")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a7(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/syllable-theory")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a8(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/the-grand-cypher-feat-johnny-hoax-indefinite-mc-brooks-lioness-saxa-c-gats-eville-as-grand-unified")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a9(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/many-worlds")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a10(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/omnithoughts")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a11(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/5th")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a12(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/2016-atheist-dreadnought-feat-tombstone-da-deadman-c-gats-johnny-hoax-syqnys-as-grand-unified")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a13(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/second-world-cab-ride")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a14(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/8")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a15(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/another-lens")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a16(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/bad-plan")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a17(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/frame-of-reference")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a18(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/greyshift")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a19(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/society-versus-nature")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a20(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/ambush-situation-feat-blue-picaso")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a21(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/landscape")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a22(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/beachfront")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a23(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/interdimensional-council-of-greys")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a24(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/guardians-of-knowledge-feat-syqnys-johnny-hoax")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a25(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/dreams-of-the-dreamer")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a26(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/the-master-paradox-as-a-master")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a27(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/star-breaker")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a28(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/bizzarchitecture")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1a29(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/infinitease")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+		
+	async def cmd_s1a30(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/far-beyond-the-bars")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	async def cmd_s1b1(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/galaxy-rise")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b2(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/4th")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b3(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/snowflakes-and-flowsnakes")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b4(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/peace-peace")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b5(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/flower-girl")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b6(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/2013-atheist-dreadnought-lady-assassin-syqnys-greydon-square-tombstone-da-deadman-johnny-hoax-gripp-task-rok")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b7(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/grow-too-old-soon")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b8(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/prison-planet")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b9(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/interstellar")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b10(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/1-21-2")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b11(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/dopamine-notes")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b12(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/judgement-day")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b13(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/rhyme-sickness-from-orion-cygnus")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b14(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/metaphor-swordsman")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b15(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/6-blankas-feat-c-gats-canibus")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b16(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/borrowed-time")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b17(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/gu-after-party-feat-dj-zashone")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b18(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/ultra-combo")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b19(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/ultra-combo")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b20(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/7")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b21(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/as-a-legend")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1b22(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/final-kata")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+		
+		
+		
+		
+		
+	
+	async def cmd_s1c1(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/star-view")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c2(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/war-porn-feat-canibus")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c3(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/onward")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c4(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/the-kardashev-scale")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c5(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/speak-to-him-feat-gripp")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c6(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/brains")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c7(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/myth")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c8(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/2010-a-d-feat-syqnys-taskrok")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c9(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/heres-why-i-dont-believe")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c10(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/man-made-god")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c11(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/proof-of-concept")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c12(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/stockholm-syndrome")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c13(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/black-atheist-feat-noob-2")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c14(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/special-pleading")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c15(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/world-around-us")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c16(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/as-an-artist")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c17(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/final-notes")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c18(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/a-i-m-anti-injustice-music")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s1c19(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://greydonsquare.bandcamp.com/track/dopamine-kata")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+		
+
+	async def cmd_s1d1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/the-cpt-theorem")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/cubed")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/2008-a-d-feat-jayez-dallas-taskrok-mr-gawn-syqnys")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/judge-me")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/mission-statement")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/game-genie")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/fun-games")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/group-home-kid")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/a-soldiers-poem")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/broken-home")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/so-what")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/n-word")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/ascension")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d14(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/galactica-actual")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d15(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/say-15")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1d16(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/159-bars-bonus")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s1d(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: The Cpt Theorem"\
+		"\nPlease select a song:"\
+		"\n!s1d1 = the cpt theorem"\
+		"\n!s1d2 = cubed"\
+		"\n!s1d3 = 2008 a d feat jayez dallas taskrok mr gawn syqnys"\
+		"\n!s1d4 = judge me"\
+		"\n!s1d5 = mission statement"\
+		"\n!s1d6 = game genie"\
+		"\n!s1d7 = fun games"\
+		"\n!s1d8 = group home kid"\
+		"\n!s1d9 = a soldiers poem"\
+		"\n!s1d10 = broken home"\
+		"\n!s1d11 = so what"\
+		"\n!s1d12 = n word"\
+		"\n!s1d13 = ascension"\
+		"\n!s1d14 = galactica actual"\
+		"\n!s1d15 = say 15"\
+		"\n!s1d16 = 159 bars bonus")
+
+	async def cmd_s1e1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/a-rational-response")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/the-compton-effect")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/molotov")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/extian")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/buddy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/psych-eval")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/roots")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/pandoras-box")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/ears")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/stranger-feat-traumah")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/squared")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/say")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/addressed")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e14(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/the-dream")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e15(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/gone")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e16(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/dear-journal")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s1e17(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://greydonsquare.bandcamp.com/track/as-a-fan")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+		
+	async def cmd_s1e(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: The Compton Effect"\
+		"\nPlease select a song:"\
+		"\n!s1e1 = a rational response"\
+		"\n!s1e2 = the compton effect"\
+		"\n!s1e3 = molotov"\
+		"\n!s1e4 = extian"\
+		"\n!s1e5 = buddy"\
+		"\n!s1e6 = psych eval"\
+		"\n!s1e7 = roots"\
+		"\n!s1e8 = pandoras box"\
+		"\n!s1e9 = ears"\
+		"\n!s1e10 = stranger feat traumah"\
+		"\n!s1e11 = squared"\
+		"\n!s1e12 = say"\
+		"\n!s1e13 = addressed"\
+		"\n!s1e14 = the dream"\
+		"\n!s1e15 = gone"\
+		"\n!s1e16 = dear journal"\
+		"\n!s1e17 = as a fan")
+
+
+		
+		
+		
+	
+	async def cmd_s2a1(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/information-audio")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a2(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/sisters-brothers")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a3(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/4-minutes-20-seconds-feat-low-technology")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a4(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/spend-a-lot-of-time")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a5(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/police-thiefs")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a6(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/caught-up")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a7(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/lies")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a8(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/take-advantage")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a9(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/sometimes")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a10(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"hhttps://informationmusic.bandcamp.com/track/smiling-faces")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a11(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/do-what-you-want")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a12(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/watch-where-i-go")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s2a13(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://informationmusic.bandcamp.com/track/misunderstood-feat-greydon-square")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+		
+		
+		
+	async def cmd_s3a1(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://www.youtube.com/watch?v=frQd-Hzm_c4")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s3a2(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://www.youtube.com/watch?v=d6nTdYQZvh0")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+		
+	
+	async def cmd_s4b(self, channel):
+		await self.safe_send_message(channel,"You selected The 6th Extinction\nPlease select a song:\n!s4b1 = The 6th Extinction\n!s4b2 = No More Messiahs\n!s4b3 = Legacy\n!s4b4 = Anti-Hero\n!s4b5 = On My Own\n!s4b6 = Necessary Evil\n!s4b7 = When Worlds Collide Feat Greydon Square\n!s4b8 = Keep It Moving")
+		return
+		
+	async def cmd_s4a(self, channel):
+		await self.safe_send_message(channel,"You selected Rise of The Reapers\nPlease select a song:\n!s4a1 = Intro(Reaper Rally)\n!s1a2 = Ruthless Aggression\n!s4a3 = Rise of the Reapers\n!s1a4 = Vintage\n!s4a5 = War For The Minds\n!s1a6 = All Fall Down\n!s4a7 = Monster\n!s1a8 = Bloodsport Feat Greydon Square\n!s4a9 = Descent Into Madness") 
+		return
+		
+	async def cmd_s4a1(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/intro-reaper-rally")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4a2(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/ruthless-aggression")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4a3(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/rise-of-the-reapers")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4a4(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/vintage")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4a5(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/all-fall-down")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4a6(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/all-fall-down")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4a7(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/monster")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4a8(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/monster")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4a9(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/descent-into-madness-feat-napalm-hyru")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+		
+	
+	
+	async def cmd_s4b1(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/the-6th-extinction")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4b2(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/no-more-messiahs-feat-napalm-hyru")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4b3(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/legacy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4b4(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/anti-hero")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4b5(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/on-my-own")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4b6(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/necessary-evil-2")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4b7(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/when-worlds-collide-feat-greydon-square")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s4b8(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://tombstonedadeadman.bandcamp.com/track/keep-it-moving-feat-napalm-hyru-adekwit")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+
+	
+	async def cmd_s5a(self, channel):
+		await self.safe_send_message(channel,
+			"You selected VI. Syqs\nPlease select a song:\n!s5a1 = Life Is But A Play\n!s5a2 = Trigger Warning (Skit)\n!s5a3 = Age Of Outrage (feat. Greydon Square)\n!s5a4 = Jesus Is The Only Way\n!s5a5 = Dumb\n!s5a6 = Message From Reality (Skit)\n!s5a7 = Beautiful Musical\n!s5a8 = Paradox Place\n!s5a9 = Come With Me\n!s5a10 = My First Selfie (Skit)\n!s5a11 = Alien\n!s5a12 = Scotch And Red Wine\n!s5a13 = Nate Diaz\n!s5a14 = Cheating Fans (Skit)\n!s5a15 = Laughing\n!s5a16 = Dark Clouds\n!s5a17 = My Computer\n!s5a18 = Fire (feat. Talon)\n!s5a19 = Keirkegaard's Train\n!s1a20 = Damn It-Outro")
+		return
+	
+	
+	async def cmd_s5a1(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/life-is-but-a-play")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a2(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/trigger-warning-skit")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a3(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/age-of-outrage-feat-greydon-square")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a4(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/jesus-is-the-only-way")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a5(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/dumb")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a6(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/message-from-reality-skit")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a7(self, player ,channel, author, permissions, leftover_args):
+
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/message-from-reality-skit")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a8(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/paradox-place")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a9(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/come-with-me")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a10(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/my-first-selfie-skit")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a11(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/alien-2")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a12(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/scotch-and-red-wine-2")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a13(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/nate-diaz")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a14(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/cheating-fans-skit")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a15(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/laughing")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a16(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/dark-clouds")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a17(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/my-computer")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a18(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/fire-feat-talon")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a19(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/kierkegaards-train")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5a20(self, player ,channel, author, permissions, leftover_args):
+	
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+			"https://syqs.bandcamp.com/track/damn-it-outro")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+
+	async def cmd_s5b1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/the-nausea")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/evil-atheist")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/magic-curtain")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/hashtag-genocide-feat-baba-brinkman")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/a-dreadful-engagement")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/hurt-me-feat-greydon-square")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/the-raven")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/jaded-eyes")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/know-when-to-hold-em")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/astronomer")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/fee-fi-fo-fum")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/muhammad-ali-feat-kritizizm")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/worms")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b14(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/mediocre-mortal-melancholy-me")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5b15(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/lost-in-the-spotlight-feat-chy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s5b(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: IV. The Nausea"\
+		"\nPlease select a song:"\
+		"\n!s5b1 = the nausea"\
+		"\n!s5b2 = evil atheist"\
+		"\n!s5b3 = magic curtain"\
+		"\n!s5b4 = hashtag genocide feat baba brinkman"\
+		"\n!s5b5 = a dreadful engagement"\
+		"\n!s5b6 = hurt me feat greydon square"\
+		"\n!s5b7 = the raven"\
+		"\n!s5b8 = jaded eyes"\
+		"\n!s5b9 = know when to hold em"\
+		"\n!s5b10 = astronomer"\
+		"\n!s5b11 = fee fi fo fum"\
+		"\n!s5b12 = muhammad ali feat kritizizm"\
+		"\n!s5b13 = worms"\
+		"\n!s5b14 = mediocre mortal melancholy me"\
+		"\n!s5b15 = lost in the spotlight feat chy")
+
+	async def cmd_s5c1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/41-feat-chy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/chasing-the-rabbit")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/cartoon-colored-nightmares")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/cos-mic-feat-johnny-hoax-rion-atom-tac-and-c-gats")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/2015")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/narcyssyst")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/fuq-the-world")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/happy-animeal")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/its-all-a-conspiracy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/dsdg-feat-greydon-square")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/spark-feat-ogma")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/wreck-it-ralph-feat-honu-and-my-kids")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5c13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/no-regrets")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s5c(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: V. Chasing the Rabbit"\
+		"\nPlease select a song:"\
+		"\n!s5c1 = 41 feat chy"\
+		"\n!s5c2 = chasing the rabbit"\
+		"\n!s5c3 = cartoon colored nightmares"\
+		"\n!s5c4 = cos mic feat johnny hoax rion atom tac and c gats"\
+		"\n!s5c5 = 2015"\
+		"\n!s5c6 = narcyssyst"\
+		"\n!s5c7 = fuq the world"\
+		"\n!s5c8 = happy animeal"\
+		"\n!s5c9 = its all a conspiracy"\
+		"\n!s5c10 = dsdg feat greydon square"\
+		"\n!s5c11 = spark feat ogma"\
+		"\n!s5c12 = wreck it ralph feat honu and my kids"\
+		"\n!s5c13 = no regrets")
+
+	async def cmd_s5d1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/hypatias-reign-feat-chy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/syqo")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/human-being")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/hurt-you-feat-greydon-square")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/monster")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/im-syq-part-two")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/butterfly")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/ballet")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/science-is-music")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/fantasy-feat-kritizizm")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/paintbrush")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/poison")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/heaven-and-hell")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d14(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/miss-fame-miss")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d15(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/so-long-feat-talon")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d16(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/rain-feat-chy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5d17(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/hypatia-rain")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s5d(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: III. Hypatia's Reign"\
+		"\nPlease select a song:"\
+		"\n!s5d1 = hypatias reign feat chy"\
+		"\n!s5d2 = syqo"\
+		"\n!s5d3 = human being"\
+		"\n!s5d4 = hurt you feat greydon square"\
+		"\n!s5d5 = monster"\
+		"\n!s5d6 = im syq part two"\
+		"\n!s5d7 = butterfly"\
+		"\n!s5d8 = ballet"\
+		"\n!s5d9 = science is music"\
+		"\n!s5d10 = fantasy feat kritizizm"\
+		"\n!s5d11 = paintbrush"\
+		"\n!s5d12 = poison"\
+		"\n!s5d13 = heaven and hell"\
+		"\n!s5d14 = miss fame miss"\
+		"\n!s5d15 = so long feat talon"\
+		"\n!s5d16 = rain feat chy"\
+		"\n!s5d17 = hypatia rain")
+
+	async def cmd_s5e1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/blasphemy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/evil-robots-and-flying-cars")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/the-sky-is-falling")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/fuq-shyt-up-feat-pakman")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/s-t-s-h-n-b-m-skit")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/handi-rap")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/i-am-human")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/jesus-piece")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/candy-rap")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/boom-goes-the-dynamite")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/fairytales")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/sexytime")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/ann-hannity-and-rush-oreilly")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e14(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/hard-head")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e15(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/l8-again")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e16(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/rational-response-squad")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e17(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/hush-your-breath")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s5e18(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://syqs.bandcamp.com/track/dreams-and-nightmares")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+	
+	async def cmd_s5e(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: II. CandyCap Rap and the L8Gr8 Atheist: Why Syqnys is the Future of Rap and Starving Children Taste Good"\
+		"\nPlease select a song:"\
+		"\n!s5e1 = blasphemy"\
+		"\n!s5e2 = evil robots and flying cars"\
+		"\n!s5e3 = the sky is falling"\
+		"\n!s5e4 = fuq shyt up feat pakman"\
+		"\n!s5e5 = s t s h n b m skit"\
+		"\n!s5e6 = handi rap"\
+		"\n!s5e7 = i am human"\
+		"\n!s5e8 = jesus piece"\
+		"\n!s5e9 = candy rap"\
+		"\n!s5e10 = boom goes the dynamite"\
+		"\n!s5e11 = fairytales"\
+		"\n!s5e12 = sexytime"\
+		"\n!s5e13 = ann hannity and rush oreilly"\
+		"\n!s5e14 = hard head"\
+		"\n!s5e15 = l8 again"\
+		"\n!s5e16 = rational response squad"\
+		"\n!s5e17 = hush your breath"\
+		"\n!s5e18 = dreams and nightmares")
+	
+	async def cmd_s6a1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/chocolate")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6a2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/joy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6a3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/day-in-the-life")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6a4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/addicted-to-acknowledgement")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6a5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/speak-for-yourself")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s6a(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: Prelude to Perfection"\
+		"\nPlease select a song:"\
+		"\n!s6a1 = chocolate"\
+		"\n!s6a2 = joy"\
+		"\n!s6a3 = day in the life"\
+		"\n!s6a4 = addicted to acknowledgement"\
+		"\n!s6a5 = speak for yourself")
+
+	async def cmd_s6b1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/type-invincible-2")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6b2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/og")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6b3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/finest-features")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6b4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/day-1")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6b5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/loneliness")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6b6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/talking-to-myself")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6b7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/walking")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6b8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/together")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6b9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/have-a-heart")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6b10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/paradise")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s6b(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: Talking to Myself"\
+		"\nPlease select a song:"\
+		"\n!s6b1 = type invincible 2"\
+		"\n!s6b2 = og"\
+		"\n!s6b3 = finest features"\
+		"\n!s6b4 = day 1"\
+		"\n!s6b5 = loneliness"\
+		"\n!s6b6 = talking to myself"\
+		"\n!s6b7 = walking"\
+		"\n!s6b8 = together"\
+		"\n!s6b9 = have a heart"\
+		"\n!s6b10 = paradise")
+
+	async def cmd_s6c1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/gentlemens-agreement")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/tell-me")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/thought-i-knew")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/nothing-lasts-forever")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/high-road-hopes")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/conceding-my-profits")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/masterpiece-theater")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/hear-you-talking")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/check-check")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/nobody-cares")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6c11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/excuses")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s6c(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: Nothing Lasts Forever"\
+		"\nPlease select a song:"\
+		"\n!s6c1 = gentlemens agreement"\
+		"\n!s6c2 = tell me"\
+		"\n!s6c3 = thought i knew"\
+		"\n!s6c4 = nothing lasts forever"\
+		"\n!s6c5 = high road hopes"\
+		"\n!s6c6 = conceding my profits"\
+		"\n!s6c7 = masterpiece theater"\
+		"\n!s6c8 = hear you talking"\
+		"\n!s6c9 = check check"\
+		"\n!s6c10 = nobody cares"\
+		"\n!s6c11 = excuses")
+
+	async def cmd_s6d1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/easy-to-find")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/message-that-youre-missing")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/rest-of-your-life")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/has-been-status")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/stick-em-up")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/surrender")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/professional-courtesy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/wonderful")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/just-like-this")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/take-me-to-the-future")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/lengthen-the-lifespan")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6d12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/cloudy-and-grey")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s6d(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: Lengthen the Lifespan"\
+		"\nPlease select a song:"\
+		"\n!s6d1 = easy to find"\
+		"\n!s6d2 = message that youre missing"\
+		"\n!s6d3 = rest of your life"\
+		"\n!s6d4 = has been status"\
+		"\n!s6d5 = stick em up"\
+		"\n!s6d6 = surrender"\
+		"\n!s6d7 = professional courtesy"\
+		"\n!s6d8 = wonderful"\
+		"\n!s6d9 = just like this"\
+		"\n!s6d10 = take me to the future"\
+		"\n!s6d11 = lengthen the lifespan"\
+		"\n!s6d12 = cloudy and grey")
+
+	async def cmd_s6e1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/save-me")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/fresh-to-death")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/feed-your-fix")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/excuse-me")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/the-message")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/two-weeks-notice")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/what-we-want")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/you-always-knew-it")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/walk-with-us")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/gold-chains-gunfights-and-tattoos")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/loudest-of-guns-bonus-track")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/no-chance-to-escape-bonus-track")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s6e13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://spanphly.bandcamp.com/track/two-years-later-bonus-track")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s6e(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: Two Weeks Notice: Deluxe Edition"\
+		"\nPlease select a song:"\
+		"\n!s6e1 = save me"\
+		"\n!s6e2 = fresh to death"\
+		"\n!s6e3 = feed your fix"\
+		"\n!s6e4 = excuse me"\
+		"\n!s6e5 = the message"\
+		"\n!s6e6 = two weeks notice"\
+		"\n!s6e7 = what we want"\
+		"\n!s6e8 = you always knew it"\
+		"\n!s6e9 = walk with us"\
+		"\n!s6e10 = gold chains gunfights and tattoos"\
+		"\n!s6e11 = loudest of guns bonus track"\
+		"\n!s6e12 = no chance to escape bonus track"\
+		"\n!s6e13 = two years later bonus track")
+
+
+	
+	
+	async def cmd_s7a1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/attack-on-titan")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/gatzilla-track-killaz")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/soul")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/remember")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/zillalude-1")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/b-i-t-n-b-blue-is-the-new-black")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/stop")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/drone-cypher-feat-greydon-square")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/zillalude-2")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/wheres-the-change")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/weirdos-feat-eville")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7a12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/push-feat-gifted-anomaly-tombstone-da-deadman-charlie-rose")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s7a(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: GatZilla (C​-​Gats & Zpu​-​Zilla) - Attack on Titan"\
+		"\nPlease select a song:"\
+		"\n!s7a1 = attack on titan"\
+		"\n!s7a2 = gatzilla track killaz"\
+		"\n!s7a3 = soul"\
+		"\n!s7a4 = remember"\
+		"\n!s7a5 = zillalude 1"\
+		"\n!s7a6 = b i t n b blue is the new black"\
+		"\n!s7a7 = stop"\
+		"\n!s7a8 = drone cypher feat greydon square"\
+		"\n!s7a9 = zillalude 2"\
+		"\n!s7a10 = wheres the change"\
+		"\n!s7a11 = weirdos feat eville"\
+		"\n!s7a12 = push feat gifted anomaly tombstone da deadman charlie rose")
+
+	async def cmd_s7b1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/the-real")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7b2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/absolute")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7b3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/back-to-you-ft-dj-mr-phantastik")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7b4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/graffiti")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7b5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/devil")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7b6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/speed-racin-unfinished")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7b7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/genius-ft-eville-agg")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7b8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/sooner-or-later-ft-eville")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7b9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/you-cant-produced-by-rare-kommodity")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s7b(self, channel):
+		await self.safe_send_message(channel,
+		'You selected: C Gats & Charlie Rose - "Something Time Forgot: The Lost Mixtape"'\
+		"\nPlease select a song:"\
+		"\n!s7b1 = the real"\
+		"\n!s7b2 = absolute"\
+		"\n!s7b3 = back to you ft dj mr phantastik"\
+		"\n!s7b4 = graffiti"\
+		"\n!s7b5 = devil"\
+		"\n!s7b6 = speed racin unfinished"\
+		"\n!s7b7 = genius ft eville agg"\
+		"\n!s7b8 = sooner or later ft eville"\
+		"\n!s7b9 = you cant produced by rare kommodity")
+
+	async def cmd_s7c1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/1-p-p-2-intro")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/2-last-rites-ft-eville")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/3-absolute-ft-charlie-rose")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/4-good-night")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/5-coroners-report-ft-cb-wonder")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/6-therapeutic-music")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/7-c-gats-run-it")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/8-a-1-ominous-flow")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/9-crime-of-passion-produced-by-bruce-williams")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/10-loyalty-honor-respect-ft-eville-greydon-square-produced-by-rare-kommodity")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/1180s-baby-ft-agg-produced-by-classik-beatz")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/12-definition-free-mix-ft-phant")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/13-wandas-song")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c14(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/14-keepsake-produced-by-zpu-zilla")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c15(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/15-friend-zone-ft-lady-assasin")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7c16(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/17-fistful-of-scholars-ft-charlie-rose-cb-wonder-eville-agg-kay-m")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s7c(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: Passion & Progress Vol. 2: Therapeutic Music"\
+		"\nPlease select a song:"\
+		"\n!s7c1 = 1 p p 2 intro"\
+		"\n!s7c2 = 2 last rites ft eville"\
+		"\n!s7c3 = 3 absolute ft charlie rose"\
+		"\n!s7c4 = 4 good night"\
+		"\n!s7c5 = 5 coroners report ft cb wonder"\
+		"\n!s7c6 = 6 therapeutic music"\
+		"\n!s7c7 = 7 c gats run it"\
+		"\n!s7c8 = 8 a 1 ominous flow"\
+		"\n!s7c9 = 9 crime of passion produced by bruce williams"\
+		"\n!s7c10 = 10 loyalty honor respect ft eville greydon square produced by rare kommodity"\
+		"\n!s7c11 = 1180s baby ft agg produced by classik beatz"\
+		"\n!s7c12 = 12 definition free mix ft phant"\
+		"\n!s7c13 = 13 wandas song"\
+		"\n!s7c14 = 14 keepsake produced by zpu zilla"\
+		"\n!s7c15 = 15 friend zone ft lady assasin"\
+		"\n!s7c16 = 17 fistful of scholars ft charlie rose cb wonder eville agg kay m")
+
+	async def cmd_s7d1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/say-whats-real-freestyle-intro")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/reelmatic-an-ode-to-illmatic-part-i")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/im-back-ft-ill-answer-produced-by-rare-kommodity")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/king-flow")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/baboon-rap-ft-eville")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/genesis-freestyle")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/state-of-grace-freestyle")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/future-freestyle-million-dollar-idea-ft-charlie-rose")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/put-it-in-the-air-freestyle")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/exhibit-dmv-ft-eville-agg-so-authentic")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/say-somethin-freestyle")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/that-shhh-produced-by-rare-kommodity")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/black-belt-theatre-produced-by-classikbeatz")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d14(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/so-wu-wu-tang-homage")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d15(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/inkomparable-ft-eville")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s7d16(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://cgats.bandcamp.com/track/fertile-ground-ft-eville-agg-so-authentic")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s7d(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: Passion & Progress Vol. 1"\
+		"\nPlease select a song:"\
+		"\n!s7d1 = say whats real freestyle intro"\
+		"\n!s7d2 = reelmatic an ode to illmatic part i"\
+		"\n!s7d3 = im back ft ill answer produced by rare kommodity"\
+		"\n!s7d4 = king flow"\
+		"\n!s7d5 = baboon rap ft eville"\
+		"\n!s7d6 = genesis freestyle"\
+		"\n!s7d7 = state of grace freestyle"\
+		"\n!s7d8 = future freestyle million dollar idea ft charlie rose"\
+		"\n!s7d9 = put it in the air freestyle"\
+		"\n!s7d10 = exhibit dmv ft eville agg so authentic"\
+		"\n!s7d11 = say somethin freestyle"\
+		"\n!s7d12 = that shhh produced by rare kommodity"\
+		"\n!s7d13 = black belt theatre produced by classikbeatz"\
+		"\n!s7d14 = so wu wu tang homage"\
+		"\n!s7d15 = inkomparable ft eville"\
+		"\n!s7d16 = fertile ground ft eville agg so authentic")
+	
+	
+	
+	
+	async def cmd_s8a(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: No Gods No Kings Only Timelords"\
+		"\nPlease select a song:"\
+		"\n!s8a1 = intro to alchemy"\
+		"\n!s8a2 = ngnkot"\
+		"\n!s8a3 = class of 92 i am theta sigma"\
+		"\n!s8a4 = north by northeast"\
+		"\n!s8a5 = melodic ministry"\
+		"\n!s8a6 = next stop type 4"\
+		"\n!s8a7 = interlude 416"\
+		"\n!s8a8 = under the starry skies"\
+		"\n!s8a9 = stay woke"\
+		"\n!s8a10 = straight outta kastaborous"\
+		"\n!s8a11 = the music in you interlude"\
+		"\n!s8a12 = 12th revisits the sunmakers"\
+		"\n!s8a13 = the jam at cern interlude"\
+		"\n!s8a14 = delusions and illusions"\
+		"\n!s8a15 = jungle juice"\
+		"\n!s8a16 = they love the loot"\
+		"\n!s8a17 = return of the last starfighter"\
+		"\n!s8a18 = stuck on staccato"\
+		"\n!s8a19 = in so many words outro")
+
+	
+	
+
+	async def cmd_s8a1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/intro-to-alchemy")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/ngnkot")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/class-of-92-i-am-theta-sigma")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/north-by-northeast")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/melodic-ministry")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/next-stop-type-4")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/interlude-416")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/under-the-starry-skies")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/stay-woke")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/straight-outta-kastaborous")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/the-music-in-you-interlude")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/12th-revisits-the-sunmakers")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/the-jam-at-cern-interlude")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a14(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/delusions-and-illusions")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a15(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/jungle-juice")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a16(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/they-love-the-loot")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a17(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/return-of-the-last-starfighter")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a18(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/stuck-on-staccato")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s8a19(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://thetwelfthdoctor.bandcamp.com/track/in-so-many-words-outro")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+
+	async def cmd_s9a1(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/fearless")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a2(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/revenge-of-the-nerds")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a3(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/oranges")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a4(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/sandmen")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a5(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/havoc-protocol")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a6(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/mazed-awakening")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a7(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/synopsis")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a8(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/there")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a9(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/tone-deaf")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a10(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/major-phi")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a11(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/late-night-munchies")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a12(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/the-spliffhanger")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a13(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/lt-x-poa-feat-the-progeny-of-ancients")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+	async def cmd_s9a14(self, player ,channel, author, permissions, leftover_args):
+		await self.cmd_play( player, channel, author, permissions, leftover_args, 
+		"https://lowtechnology.bandcamp.com/track/flagship-feat-kizzle-the-emcee")
+		await self.post_lastinqueue( player ,channel, author, permissions, leftover_args)
+
+
+	async def cmd_s9(self, channel):
+		await self.safe_send_message(channel,
+		"You selected: LTGU"\
+		"\nPlease select a song:"\
+		"\n!s9a1 = fearless"\
+		"\n!s9a2 = revenge of the nerds"\
+		"\n!s9a3 = oranges"\
+		"\n!s9a4 = sandmen"\
+		"\n!s9a5 = havoc protocol"\
+		"\n!s9a6 = mazed awakening"\
+		"\n!s9a7 = synopsis"\
+		"\n!s9a8 = there"\
+		"\n!s9a9 = tone deaf"\
+		"\n!s9a10 = major phi"\
+		"\n!s9a11 = late night munchies"\
+		"\n!s9a12 = the spliffhanger"\
+		"\n!s9a13 = lt x poa feat the progeny of ancients"\
+		"\n!s9a14 = flagship feat kizzle the emcee")
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     async def cmd_id(self, author, user_mentions):
         """
         Usage:
